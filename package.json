@@ -1,0 +1,31 @@
+{
+  "name": "earcon",
+  "version": "0.0.1",
+  "description": "Library for adding earcons (recognizable small sounds) to events on your website.",
+  "keywords": "sound webaudio audio earcon audio-api",
+  "author": {
+    "name": "Justus Romijn",
+    "email": "justus.romijn@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justusromijn/earcon.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justusromijn/earcon.js/issues",
+    "email": "justus.romijn@gmail.com"
+  },
+  "license": "(GPL-3.0)",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/earcon.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/_mocha src/**/*.spec.js"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
